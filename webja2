@@ -1,0 +1,38 @@
+<script language=javascript >
+
+title_tmp1=document.title
+if (title_tmp1.indexOf(">>")!=-1){
+title_tmp2=title_tmp1.split(">>");
+title_last="*~*"+title_tmp2[1];
+title_last=title_last + "*~*" + title_tmp2[2];
+}else{
+
+if (title_tmp1.indexOf("*~*")!=-1){
+title_tmp2=title_tmp1.split("*~*");
+title_last="*~*"+title_tmp2[1];
+if (title_last=="*~*"){title_last="*~*"};
+if (title_last=="*~*"){title_last="*~*"};
+}
+else { title_last=" wWw.KyNiemB2.Top1.Vn "}
+}
+
+
+title_new=""+title_last+""
+step=0
+
+function flash_title()
+{
+step++
+if (step==8) {step=1}
+if (step==1) {document.title='[----*'+title_new+'*----]'}
+if (step==2) {document.title='[---*-'+title_new+'-*---]'}
+if (step==3) {document.title='[--*--'+title_new+'--*--]'}
+if (step==4) {document.title='[-*---'+title_new+'---*-]'}
+if (step==5) {document.title='[--*--'+title_new+'--*--]'}
+if (step==6) {document.title='[---*-'+title_new+'-*---]'}
+if (step==7) {document.title='[----*'+title_new+'*----]'}
+setTimeout("flash_title()",180);
+}
+flash_title()
+
+</script>
