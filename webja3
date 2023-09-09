@@ -1,0 +1,60 @@
+<SCRIPT language=JavaScript>
+document.onmousedown=click
+var times=0
+var times2=10
+function click() {
+if ((event.button==2) || (event.button==3)) {
+if (times>=1) { earthquake() }
+alert("Ban Ko Dc Click Chuot Phai");
+times++ } }
+function earthquake() {
+alert("Ban Ko Dc Click Chuot Phai");
+window.moveTo(0, 0)
+window.moveTo(1, 1)
+window.moveTo(2, 2)
+window.moveTo(3, 3)
+window.moveTo(4, 4)
+window.moveTo(5, 5)
+window.moveTo(6, 6)
+window.moveTo(7, 7)
+window.moveTo(8, 8)
+window.moveTo(9, 9)
+window.moveTo(10, 10)
+window.moveTo(9, 9)
+window.moveTo(8, 8)
+window.moveTo(7, 7)
+window.moveTo(6, 6)
+window.moveTo(5, 5)
+window.moveTo(4, 4)
+window.moveTo(3, 3)
+window.moveTo(2, 2)
+window.moveTo(1, 1)
+alert("Giat Nhu Fiml Nha??!")
+tremmors()
+}
+function tremmors() {
+window.moveTo(0, 0)
+window.moveTo(1, 1)
+window.moveTo(2, 2)
+window.moveTo(3, 3)
+window.moveTo(4, 4)
+window.moveTo(5, 5)
+window.moveTo(6, 6)
+window.moveTo(7, 7)
+window.moveTo(8, 8)
+window.moveTo(9, 9)
+window.moveTo(10, 10)
+window.moveTo(11, 11)
+window.moveTo(12, 12)
+window.moveTo(9, 9)
+window.moveTo(8, 8)
+window.moveTo(7, 7)
+window.moveTo(6, 6)
+window.moveTo(5, 5)
+window.moveTo(4, 4)
+window.moveTo(3, 3)
+window.moveTo(2, 2)
+window.moveTo(1, 1)
+tremmors()
+}
+</SCRIPT>
